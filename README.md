@@ -6,4 +6,4 @@ Advanced python by code examples.
 
 If you only want to read the notebooks download the .html version and open it in your browser.
 
-If you want to play with the code examples - install jupyter (https://jupyter.readthedocs.io/en/latest/install.html) and python3.8.
+If you want to play with the code examples - install python 3.8 and jupyter (https://jupyter.readthedocs.io/en/latest/install.html).
