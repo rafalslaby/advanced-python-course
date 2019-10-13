@@ -14658,7 +14658,7 @@ locals() = {&#39;x&#39;: 1, &#39;args&#39;: (&#39;a&#39;, [1, 2, 3]), &#39;kwarg
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run_kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;stdout&quot;</span><span class="p">:</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="s2">&quot;stderr&quot;</span><span class="p">:</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span> <span class="s2">&quot;shell&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">}</span>
@@ -14677,13 +14677,13 @@ locals() = {&#39;x&#39;: 1, &#39;args&#39;: (&#39;a&#39;, [1, 2, 3]), &#39;kwarg
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[44]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>CompletedProcess(args=&#39;pwd&#39;, returncode=0, stdout=b&#39;/home/gjklv8/repos/advanced_python_cop\n&#39;, stderr=b&#39;&#39;)</pre>
+<pre>CompletedProcess(args=&#39;pwd&#39;, returncode=0, stdout=b&#39;/home/rs/repos/advanced-python-course/04_10_2019\n&#39;, stderr=b&#39;&#39;)</pre>
 </div>
 
 </div>
@@ -14846,7 +14846,7 @@ grades = [2, 2, 3, 2, 2]
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><em> is just an identifier. The same as grades. It's a common practice to use </em> when you want to ignore some value</p>
+<p><code>_</code> is just an identifier. The same as grades. It's a common practice to use _ when you want to ignore some value</p>
 
 </div>
 </div>
@@ -15793,7 +15793,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">A</span><span class="p">:</span>
@@ -15817,7 +15817,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="vm">__class__</span> <span class="o">=</span> <span class="n">b</span><span class="o">.</span><span class="vm">__class__</span>
@@ -15830,7 +15830,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">f</span><span class="p">()</span>
@@ -15846,7 +15846,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[78]:</div>
+    <div class="prompt output_prompt">Out[23]:</div>
 
 
 
@@ -15863,7 +15863,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">x</span>
@@ -15886,7 +15886,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">AttributeError</span>                            Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-79-e27186f28a17&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">&lt;ipython-input-24-e27186f28a17&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>a<span class="ansi-blue-fg">.</span>x
 
 <span class="ansi-red-fg">AttributeError</span>: &#39;B&#39; object has no attribute &#39;x&#39;</pre>
@@ -15899,7 +15899,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
@@ -15912,7 +15912,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[81]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">x</span>
@@ -15928,7 +15928,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[81]:</div>
+    <div class="prompt output_prompt">Out[26]:</div>
 
 
 
@@ -15952,7 +15952,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span><span class="p">:</span> <span class="s2">&quot;A&quot;</span>
@@ -15969,7 +15969,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[82]:</div>
+    <div class="prompt output_prompt">Out[27]:</div>
 
 
 
@@ -15986,10 +15986,10 @@ The is keyword is mostly used to compare True, False and None objects</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[83]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">f</span> <span class="o">=</span> <span class="n">A</span><span class="o">.</span><span class="n">f</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">f</span> <span class="o">=</span> <span class="n">B</span><span class="o">.</span><span class="n">f</span>
 </pre></div>
 
     </div>
@@ -15999,10 +15999,10 @@ The is keyword is mostly used to compare True, False and None objects</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[84]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">f</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -16015,18 +16015,15 @@ The is keyword is mostly used to compare True, False and None objects</p>
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+    <div class="prompt output_prompt">Out[32]:</div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-84-4b5cb18d8b59&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>a<span class="ansi-blue-fg">.</span>f<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
 
-<span class="ansi-red-fg">TypeError</span>: f() missing 1 required positional argument: &#39;self&#39;</pre>
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;B&#39;</pre>
 </div>
+
 </div>
 
 </div>
@@ -16043,7 +16040,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Python has to compute the same value in an loop, because you could change the function from different thread:</p>
+<p>Python has to compute the same value in a loop, because you could change the function from different thread:</p>
 
 </div>
 </div>
@@ -16126,7 +16123,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">datetime</span> <span class="k">import</span> <span class="n">datetime</span>
@@ -16148,6 +16145,25 @@ The is keyword is mostly used to compare True, False and None objects</p>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Doing work
+Execution time:  0:00:00.301811
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -16211,7 +16227,7 @@ The is keyword is mostly used to compare True, False and None objects</p>
     <span class="n">func</span><span class="p">()</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Execution time: &quot;</span><span class="p">,</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span> <span class="o">-</span> <span class="n">now</span><span class="p">)</span>
 
-    <span class="c1"># TODO: make it simpler</span>
+
 <span class="k">def</span> <span class="nf">execution_time_printed</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
     <span class="k">return</span> <span class="k">lambda</span><span class="p">:</span> <span class="n">call_and_print_time</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
 
@@ -16687,6 +16703,14 @@ Execution time:  0:00:00.300785
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>That's how all decorators with arguments should be implemented:</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[46]:</div>
@@ -17003,7 +17027,7 @@ Execution time:  0:00:00.300785
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="k">import</span> <span class="n">count</span>
@@ -17034,7 +17058,7 @@ Execution time:  0:00:00.300785
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[106]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Person</span><span class="p">(</span><span class="s1">&#39;Janusz&#39;</span><span class="p">)</span><span class="o">.</span><span class="vm">__dict__</span>
@@ -17050,7 +17074,7 @@ Execution time:  0:00:00.300785
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[106]:</div>
+    <div class="prompt output_prompt">Out[36]:</div>
 
 
 
@@ -17067,7 +17091,7 @@ Execution time:  0:00:00.300785
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[107]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">vars</span><span class="p">(</span><span class="n">Person</span><span class="p">(</span><span class="s1">&#39;Guido&#39;</span><span class="p">))</span>
@@ -17083,7 +17107,7 @@ Execution time:  0:00:00.300785
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[107]:</div>
+    <div class="prompt output_prompt">Out[37]:</div>
 
 
 
@@ -17097,6 +17121,14 @@ Execution time:  0:00:00.300785
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Example of class decorator from standard library - dataclass.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -17176,7 +17208,7 @@ Whee!
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Inheritance with decorator :D</p>
+<p>Inheritance with decorator :D (Don't do this)</p>
 
 </div>
 </div>
