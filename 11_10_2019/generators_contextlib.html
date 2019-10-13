@@ -13077,6 +13077,25 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Advanced-python-CoP">Advanced python CoP<a class="anchor-link" href="#Advanced-python-CoP">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Table-of-contents:">Table of contents:<a class="anchor-link" href="#Table-of-contents:">&#182;</a></h2><ul>
+<li>Iter protocl</li>
+<li>Generators</li>
+<li>Contextlib</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Iter-protocol">Iter protocol<a class="anchor-link" href="#Iter-protocol">&#182;</a></h3>
 </div>
 </div>
@@ -13151,7 +13170,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Counter</span><span class="p">:</span>
@@ -13165,7 +13184,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">Counter</span><span class="p">():</span>
@@ -13173,6 +13192,30 @@ div#notebook {
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-2-195ccddbe93a&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">for</span> value <span class="ansi-green-fg">in</span> Counter<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">      2</span>     print<span class="ansi-blue-fg">(</span>value<span class="ansi-blue-fg">)</span>
+
+<span class="ansi-red-fg">TypeError</span>: &#39;Counter&#39; object is not iterable</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13186,7 +13229,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">it</span> <span class="o">=</span> <span class="nb">iter</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
@@ -13199,6 +13242,26 @@ div#notebook {
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1
+2
+3
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13313,7 +13376,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Why is this information useful? Infinite or very large sequences. Problem: find first fibonaci sequence number which has a sum of digits greater than 100</p>
+<p>Why is this information useful? Infinite or very large sequences.<br>
+Problem: find first fibonaci sequence number which has a sum of digits greater than 100</p>
 
 </div>
 </div>
@@ -14511,8 +14575,7 @@ Variable names:
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Common generator mistakes:</p>
-
+<h3 id="Common-generator-pitfalls:">Common generator pitfalls:<a class="anchor-link" href="#Common-generator-pitfalls:">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -14800,7 +14863,7 @@ Variable names:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="k">import</span> <span class="n">Path</span>
@@ -14830,10 +14893,10 @@ Variable names:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span> du -hs ~/faster_xml.xml
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span> du -hs ~/big.xml
 </pre></div>
 
     </div>
@@ -14850,7 +14913,7 @@ Variable names:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>20G	/home/gjklv8/faster_xml.xml
+<pre>19G	/home/rs/big.xml
 </pre>
 </div>
 </div>
@@ -14861,10 +14924,10 @@ Variable names:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tags</span> <span class="o">=</span> <span class="n">iter_tags_from_xml_file</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/home/gjklv8/faster_xml.xml&quot;</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tags</span> <span class="o">=</span> <span class="n">iter_tags_from_xml_file</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/home/rs/big.xml&quot;</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -14927,7 +14990,7 @@ Variable names:
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We counted keybox tags in 20GB xml file with just a couple of KB.</p>
+<p>We counted keybox tags in 17GB xml file with just a couple of KB.</p>
 
 </div>
 </div>
@@ -14939,18 +15002,13 @@ Variable names:
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We need some test data. Let's generate it using python</p>
 
-    </div>
 </div>
 </div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
