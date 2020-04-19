@@ -126,3 +126,8 @@ dmypy.json
 
 # Pycharm project config
 .idea/
+
+# temporary file for simple testing
+__tmp__.py
+
+.vscode
