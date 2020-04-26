@@ -10,7 +10,7 @@ If you only want to read the notebooks use this links (jupyter notebooks exporte
 * [TDD, doctest](https://rafalslaby.github.io/advanced-python-course/doctest/tdd_doctest.html)
 * [Package and version management](https://rafalslaby.github.io/advanced-python-course/package_and_version_management/package_and_version_management.html)
 * [What's new 0: cool early python features (1.x - 2.1)](https://rafalslaby.github.io/advanced-python-course/whats_new_00/whatsnew.html)
-* [Debug any python code anywhere with pdb](https://rafalslaby.github.io/advanced-python-course/debugging_with_pdb/main.py)
+* [Debug any python code anywhere with pdb](https://rafalslaby.github.io/advanced-python-course/debugging_with_pdb/pdb.html)
 
 
 If you want to play with the code examples - install python 3.8+ and jupyter (https://jupyter.readthedocs.io/en/latest/install.html).
