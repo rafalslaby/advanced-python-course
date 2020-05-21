@@ -11,6 +11,7 @@ If you only want to read the notebooks use this links (jupyter notebooks exporte
 * [Package and version management](https://rafalslaby.github.io/advanced-python-course/package_and_version_management/package_and_version_management.html)
 * [What's new 0: cool early python features (1.x - 2.1)](https://rafalslaby.github.io/advanced-python-course/whats_new_00/whatsnew.html)
 * [Debug any python code anywhere with pdb](https://rafalslaby.github.io/advanced-python-course/debugging_with_pdb/pdb.html)
+* [Why so synchronous? threading vs multiprocessing and why we still need asyncio](https://docs.google.com/presentation/d/1Psp4si_CBtwdaQqXoeQvAhPAWsXsx1hqWtX5sOLcfeA)
 
 
 If you want to play with the code examples - install python 3.8+ and jupyter (https://jupyter.readthedocs.io/en/latest/install.html).
